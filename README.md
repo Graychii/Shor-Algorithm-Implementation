@@ -38,8 +38,8 @@ The algorithm was implemented and tested using **Qiskit** (IBM’s quantum compu
 ## **Key Findings**
 
 ### **Classical vs. Quantum Performance**
-- **For 2-digit RSA moduli**, classical computers performed faster than quantum computers.
-- **For 24-bit RSA moduli**, classical computers required over 4 minutes to break the key, while quantum computers completed the task in 8 seconds using Shor’s algorithm on IBM’s quantum hardware.
+- **For small RSA modulu**, classical computers performed faster than quantum computers.
+- **For 24-bit RSA modulu**, classical computers required over 4 minutes to break the key, while quantum computers completed the task in 8 seconds using Shor’s algorithm on IBM’s quantum hardware.
 
 ### **Testing Results**:
 - **Local Simulations**: Shor's algorithm worked successfully on small numbers like moduli of 15, simulating the factorization process.
