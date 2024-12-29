@@ -62,6 +62,8 @@ The algorithm was implemented and tested using **Qiskit** (IBM’s quantum compu
 - **Classical Performance**: For small RSA moduli (up to 2 digits), classical computers easily outperformed quantum systems.
 - **Quantum Performance**: For larger RSA moduli (24 bits), quantum systems showed a clear advantage, breaking the RSA encryption in **8 seconds** compared to **4 minutes** on classical computers.
 
+- note: For large numbers, the Brute Force approach proved to be the fastest, completing in ~2 seconds in classical computing. 
+
 ---
 
 ## **Challenges and Limitations**
