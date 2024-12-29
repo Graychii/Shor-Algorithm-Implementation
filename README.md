@@ -2,12 +2,6 @@
 
 This repository contains implementations of Shor's algorithm using quantum computing frameworks, with both generalized and simplified approaches. The project explores the quantum factorization of integers and provides implementations using **Qiskit** and **PennyLane**.  
 
-## Table of Contents  
-- [Overview](#overview)  
-- [Repository Structure](#repository-structure)  
-
----
-
 ## Overview  
 
 Shor's algorithm is a quantum algorithm that efficiently factors integers. It demonstrates the power of quantum computing to solve problems that are infeasible for classical computers.  
