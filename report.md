@@ -68,6 +68,22 @@ The algorithm was implemented and tested using **Qiskit** (IBM’s quantum compu
 
 ## **Challenges and Limitations**
 
+
+### Challenges with Pennylane
+
+Initially, both **Qiskit** and **Pennylane** were considered for implementing Shor’s algorithm. However, Pennylane presented a significant challenge: it could not be integrated seamlessly with IBM Quantum hardware for remote execution. This limitation stemmed from compatibility issues and the absence of direct support for running Pennylane-based quantum circuits on IBM's quantum systems.
+
+### Transition to Qiskit
+
+Due to the inability to use Pennylane for remote execution with IBM hardware, the focus shifted entirely to **Qiskit** for the following reasons:
+
+- **Native IBM Integration**: Qiskit offers built-in support for IBM Quantum hardware, making it the preferred choice for experiments involving IBM systems.
+- **Extensive Documentation and Support**: Qiskit’s robust community and comprehensive resources provided better guidance for implementing Shor’s algorithm.
+- **Performance and Optimization**: Qiskit’s optimization capabilities allowed more efficient utilization of limited qubits and execution time.
+
+This transition ensured smoother experimentation and reliable access to quantum hardware for testing the algorithm.
+
+
 1. **Quantum Hardware Accessibility**:
    - The limited number of qubits on IBM’s quantum hardware constrained the size of RSA keys that could be tested (up to 48 bits).
    - Availability of IBM's quantum hardware was restricted, with only **10 minutes of testing time** available per month, limiting the scope of the experiment.
