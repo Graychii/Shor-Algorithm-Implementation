@@ -84,9 +84,8 @@ The algorithm was implemented and tested using **Qiskit** (IBM’s quantum compu
 The experiment demonstrated that Shor’s algorithm has the potential to break RSA encryption more efficiently than classical computers, especially when factoring larger RSA moduli (like 24 bits). However, the current limitations of quantum hardware—such as the number of qubits and the lack of error correction—restrict its ability to handle larger RSA moduli.
 
 ### **Future Directions**
-1. **Scaling Quantum Systems**: Future research should focus on improving quantum hardware, particularly increasing the number of qubits, to handle larger RSA keys (e.g., 1024-bit RSA).
-2. **Hybrid Approaches**: Combining classical and quantum computing could offer a practical solution to factor larger RSA keys.
-3. **Quantum Error Correction**: Implementing error correction techniques to enhance the reliability and accuracy of quantum computations is crucial for scaling the solution to larger numbers.
+1. **Hybrid Approaches**: Combining classical and quantum computing could offer a practical solution to factor larger RSA keys.
+2. **Quantum Error Correction**: Implementing error correction techniques to enhance the reliability and accuracy of quantum computations is crucial for scaling the solution to larger numbers.
 
 ---
 
@@ -97,10 +96,3 @@ The experiment demonstrated that Shor’s algorithm has the potential to break R
 - **Pennylane**: A quantum machine learning library for quantum circuits and simulations.
 - **IBM Quantum Experience API Token**: Required to access IBM’s quantum hardware for real-time experiments.
 
----
-
-## **Installation**
-To set up the required libraries for running Shor’s algorithm, use the following command:
-
-```bash
-pip install qiskit pennylane
