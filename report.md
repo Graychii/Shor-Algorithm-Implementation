@@ -71,7 +71,7 @@ The algorithm was implemented and tested using **Qiskit** (IBM’s quantum compu
 
 ### Challenges with Pennylane
 
-Initially, both **Qiskit** and **Pennylane** were considered for implementing Shor’s algorithm. However, Pennylane presented a significant challenge: it could not be integrated seamlessly with IBM Quantum hardware for remote execution. This limitation stemmed from compatibility issues and the absence of direct support for running Pennylane-based quantum circuits on IBM's quantum systems.
+Initially, both **Qiskit** and **Pennylane** were considered for implementing Shor’s algorithm. However, Pennylane presented a significant challenge.
 
 ### Transition to Qiskit
 
