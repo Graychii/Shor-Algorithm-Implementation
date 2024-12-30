@@ -54,15 +54,14 @@ The algorithm was implemented and tested using **Qiskit** (IBM’s quantum compu
 
 ### **Quantum vs. Classical Time Comparison**:
 
-| **RSA Modulus Size** | **Classical Computing Time** | **Quantum Computing Time (IBM Quantum)** |
-|----------------------|------------------------------|-------------------------------------------|
-| 2-digit RSA          | < 1 second                   | 2–5 seconds                              |
-| 48-bit RSA           | > 4 minutes                  | 8 seconds                                |
+| **RSA Modulus Size** | **Classical Computing Time (Bruteforce)** | **Classical Computing Time (Pollard’s Rho)** | **Quantum Computing Time (IBM Quantum)** |
+|----------------------|------------------------------|-------------------------------------------|-------------------------------------------|
+| 2-digit RSA          | < 1 second                   | 0 ms                              | 2–5 seconds                              |
+| 48-bit RSA           | > 4 minutes                  | 3 ms                                | 8 seconds                                |
 
 - **Classical Performance**: For small RSA moduli (up to 2 digits), classical computers easily outperformed quantum systems.
 - **Quantum Performance**: For larger RSA moduli (48 bits), quantum systems showed a clear advantage, breaking the RSA encryption in **8 seconds** compared to **4 minutes** on classical computers.
 
-- **Note**: For large numbers, the optimized algorithm approach proved to be the fastest, completing in ~2 seconds in classical computing. 
 
 ---
 
